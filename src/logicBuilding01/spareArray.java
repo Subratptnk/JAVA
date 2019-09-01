@@ -25,7 +25,7 @@ public class spareArray {
             int count=0;
             for(int j=0 ; j<stringSize ; ++j)
                 {
-                    if(queryList.get(i).equalsIgnoreCase(strList.get(j)))
+                    if(queryList.get(i).equalsIgnoreCase(strList.get(j))) //logic
                         count++;
                 }
             
